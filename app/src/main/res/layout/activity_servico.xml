@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ServicoActivity"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnCadastrarServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCadastrarServicoClick"
+        android:text="Cadastrar Serviços"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnListarServicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnListarServicosClick"
+        android:text="Listar Serviços"
+        android:textSize="25sp" />
+
+</LinearLayout>

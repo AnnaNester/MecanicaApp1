@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <Button
+        android:id="@+id/btnCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClienteClick"
+        android:text="Clientes"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnVeiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnVeiculoClick"
+        android:text="Veículos"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnFuncionarioClick"
+        android:text="Funcionários"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnServicoClick"
+        android:text="Servicos"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnOrdemDeServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnOrdemDeServicoClick"
+        android:text="Ordens de serviço"
+        android:textSize="25sp" />
+
+</LinearLayout>

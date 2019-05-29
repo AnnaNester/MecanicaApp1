@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtProprietario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:hint="Marca"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtModelo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:hint="Modelo"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtCor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:hint="Cor"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtAno"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:hint="Ano"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:hint="Placa (Sem traço)"
+        android:maxLength="7"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnLimparClick"
+            android:text="Limpar"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnCadastrarClick"
+            android:text="Cadastrar"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <Button
+        android:id="@+id/btnNovaOrdemDeServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnNovaOrdemDeServicoClick"
+        android:text="Nova Ordem de serviço"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnListarOrdensDeServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnListarOrdensDeServicoClick"
+        android:text="Listar Ordens de serviço"
+        android:textSize="25sp" />
+
+</LinearLayout>
